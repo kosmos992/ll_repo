@@ -1,0 +1,124 @@
+<html>
+    <head>
+    <style>
+    header {
+        margin: auto; 
+        width: 1080px;
+        height: 100px;
+        display: flex;
+        align-items: center; 
+        position: relative;
+    }
+    body {
+        margin: 0
+    }
+
+    main {
+        display: grid;
+        height: 800px;
+        grid-template-rows: 1fr 2.5fr 0.2fr 2.5fr;
+    }
+    
+    .item_1 {
+        background-color: blanchedalmond;
+    }
+    .item_2 {
+        background-color: burlywood;
+    }
+    .item_3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .item_3_pair {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .upper_subitem {
+        border-bottom: solid 1px black;
+        background-color: cornsilk;
+    }
+    .lower_subitem {
+        background-color: coral;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    .list_1 {
+        text-decoration: none;
+        color: #888;
+    }
+    .list_2 {
+        text-decoration: none;
+        color: #888;
+    }
+    footer {
+        width: 1080px;
+        height: 100px;
+        margin: auto;
+        padding: 0 8px 0 8px; 
+        display: flex;
+        flex-direction: column; 
+        font-size: 12px;
+        overflow: auto;
+
+
+    }
+    .bottom_box {
+        flex: 1;
+        padding-top: 20px;
+        font-size: 12px;
+
+    }
+    .bottom_box ul > li {
+        display: inline-block; 
+        margin-left: 8px;
+    }
+
+
+
+    </style>
+    
+    </head>
+    <body>
+        <header>
+            헤더
+        </header>
+
+        <main>
+            <div class='item_1'>쓸만한 인재 소개</div>
+            <div class='item_2'>대충 동영상</div>
+            <div>공백</div>
+            <div class='item_3'>
+                <div></div>
+                <div>어떤인재?</div>
+                <div class='item_3_pair'>
+                    <div class='upper_subitem'></div>
+                    <div class='lower_subitem'></div>
+                </div>
+                <div></div>
+            </div>
+        </main>
+        <footer>
+            <div class="bottom_box">
+                <ul>
+                  <li class="list_1">© 2023</li>
+                  <li><a href="http://wix.com"> WIX로 제작된 본 홈페이지에 대한 모든 권리는 OOOO(사업체명)에 귀속됩니다.</a></li>
+                  <li><a href="mailto:info@mysite.com"> &nbsp &nbsp info@mysite.com  </a></li>
+                  <li class="list_2"> 서울특별시 종로구 안국동 OO-OO, 110-240 &nbsp</li>
+                  <li><a href="http://www.facebook.com/wix"><img src="facebook.webp" width="18px" height="18px" object-fit: cover;></a> </li>
+                  <li><a href="http://www.twitter.com/wix"><img src="twiiter.webp" width="18px" height="18px" object-fit: cover;></a> </li>
+                  <li><a href="http://instagram.com/wix"><img src="cammer.webp" width="18px" height="18px" object-fit: cover;> </a></li>
+                </ul>
+            </div>
+        </footer>
+        
+    </body>
+
+
+
+
+
+
+
+</html>
