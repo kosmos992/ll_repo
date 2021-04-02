@@ -1,0 +1,34 @@
+
+
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  .list_1 {
+    text-decoration: none;
+    color: #888;
+  }
+  .list_2 {
+    text-decoration: none;
+    color: #888;
+  }
+  footer {
+    width: 1080px;
+    height: 310px;
+    margin: auto;
+    padding: 0 8px 0 8px; 
+    display: flex;
+    flex-direction: column; 
+    font-size: 12px;
+    overflow: auto;
+  }
+  .bottom_box {
+    flex: 3;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+  .bottom_box ul > li {
+    display: inline-block; 
+    margin-left: 8px;
+  }
