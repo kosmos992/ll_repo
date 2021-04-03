@@ -45,3 +45,11 @@ nav {
 .push {
   margin-left: auto;
 }
+
+.nav_links > li > a:hover {
+  color: gold;
+}
+
+.nav_links > li > a {
+  transition: .5s;
+}
