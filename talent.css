@@ -1,0 +1,92 @@
+main {
+    display: grid;
+    height: 1000px;
+    grid-template-rows: 180px 360px 60px 4fr;
+}
+
+.item_1_outer {
+    background-color: gold;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 4fr;
+}
+
+.item_1_inner {
+    background-color: gold;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    overflow: hidden;
+}
+
+.item_1_inner > div img {
+    height: 70px;
+    object-fit: cover;
+    display: block;
+}
+
+#lineup1 {
+    line-height: 72px;
+    font-size: 60px;
+    padding-left: 10px;
+    font-family: '리디바탕', 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+#lineup2 {
+    line-height: 36px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: '리디바탕', 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+.item_2 {
+    height: 360px;
+    overflow: hidden;
+}
+
+.item_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
+    font-family: '리디바탕', 'Times New Roman', Times, serif;
+    width: 1920px;
+}
+
+.item_2 > img {
+    width: 1920px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.item_3_duo {
+    display: grid;
+    grid-template-rows: 0.7fr 1fr;
+}
+.item_3_trio {
+    display: grid;
+    grid-template-rows: 1fr 1.2fr 1.5fr;
+}
+.upper_subitem {
+    border-bottom: solid 1px black;
+    font-family: '리디바탕', 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.button_div {
+    float: right;
+    margin-top: 30px;
+}
+
+.button_div > button {
+    font-family: '나눔바른고딕', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 140px;
+    height: 40px;
+    background-color: gold;
+    border: 0.3px solid transparent;
+    transition: 0.5s;
+}
+
+.button_div > button:hover {
+    background-color: white;
+    border: 0.3px solid black;
+}
