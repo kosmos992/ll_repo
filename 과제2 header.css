@@ -1,9 +1,47 @@
 header {
-    margin: auto; 
-    width: 1080px;
-    height: 215px;
-    display: flex;
-    align-items: center; 
-    position: relative;
-  }
- 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  0px 200px;
+  height: 86px;
+}
+
+.logo {
+  font-size: 18pt;
+
+}
+
+.logo > a {
+  color: black;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links-sns {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav_links-sns li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.enabled {
+ color: gold;
+}
+
+.push {
+  margin-left: auto;
+}
