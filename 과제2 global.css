@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Malgun Gothic";
+    font-weight: 100;
   }
   a {
     text-decoration: none;
