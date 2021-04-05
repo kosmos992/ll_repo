@@ -6,7 +6,7 @@ main {
   min-width: 980px;
   margin: auto;
   display: grid;
-  grid-template-rows: 606px 404px 580px 850px; 
+  grid-template-rows: 850px; 
 }
 .temp-box {
   width: 100%;
