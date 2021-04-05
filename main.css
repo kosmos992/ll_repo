@@ -1,0 +1,238 @@
+
+
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  .list_1 {
+    text-decoration: none;
+    color: #888;
+  }
+  .list_2 {
+    text-decoration: none;
+    color: #888;
+  }
+  footer {
+    width: 1080px;
+    height: 121px;
+    margin: auto;
+    padding: 0 8px 0 8px; 
+    display: flex;
+    flex-direction: column; 
+    font-size: 12px;
+    overflow: auto;
+  }
+  .bottom_box {
+    flex: 3;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+  .bottom_box ul > li {
+    display: inline-block; 
+    margin-left: 8px;
+  }
+
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: #888;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  main {
+    background: #f2f4f7;
+    min-height: 700px;
+  }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:  0px 400px;
+  height: 86px;
+  position: relative;
+}
+
+h4 {
+  font-size: 45pt;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h5 {
+  font-size: 25pt;
+  margin: 0;
+}
+
+.div1 .button1 {
+  font-size: 10pt;
+  padding: 10px 45px;
+  margin-right: 3rem;
+  border: 2px solid;
+  color: white;
+}
+
+.div1 .button1:hover {
+  color: gold;
+  transition: color 0.5s;
+}
+
+.icon-background {
+  border-radius: 50%;
+  padding: 1.2rem;
+  background-color: white;
+  margin: 20px;
+}
+
+.div1 {
+  background: url(./img1.webp) no-repeat;
+  background-size: cover; 
+  height: 601px; 
+  color:white;
+  font-family: 'Nanum Myeongjo', serif;
+  display: grid;
+  grid-template-rows: 350px 70px 50px;
+  padding-top: 80px;
+  padding-left: 15%;
+}
+
+.div1-item-1 {
+  grid-row-start: 1;
+}
+
+.div1-item-2 {
+  grid-row-start: 2;
+}
+
+.div1-item-3 {
+  grid-row-start: 3;
+}
+
+.div2 {
+  height: 351px; 
+  background-color: gold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.role-card {
+  width: 200px; 
+  text-align: center; 
+  padding: 10px;
+  font-size: 10pt;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.role-card > p {
+  margin: 2px;
+}
+
+.div3 {
+  background-color: white;
+  height: auto;
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px;
+  grid-template-rows: 220px 280px 200px;
+  justify-content: center;
+}
+
+.div3-item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.div3-item2 {
+  grid-column: 1 / span 4;
+  grid-row: 2;
+}
+
+.div3-item3{
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.div3-item4{
+  grid-column: 3 / span 2;
+  grid-row: 3;
+}
+
+.div3 h1, .div3 p {
+  margin: 0;
+}
+
+.div3 h1 {
+  font-size: 40pt;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.div3 h2 {
+  font-weight: 300;
+}
+
+.div3 .text-box {
+  width: 460px;
+  display: inline-block;
+  margin: 20px 30px;
+}
+
+.div3 .person-card {
+  display: inline-block;
+  margin: 10px 20px;
+  text-align: center;
+  font-style: italic;
+  font-size: 11pt;
+  letter-spacing: 2px;
+}
+
+.logo {
+  font-size: 18pt;
+
+}
+
+.logo > a {
+  color: black;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links-sns {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav_links-sns li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.enabled {
+ color: gold;
+}
+
+.push {
+  margin-left: auto;
+}
